@@ -1,0 +1,11 @@
+Init go app with github repository
+$ go mod init github.com/rudyalvaradobeltran/go
+
+Run app
+$ go run main.go
+
+Build
+$ go build main.go
+
+Run build
+$ main
