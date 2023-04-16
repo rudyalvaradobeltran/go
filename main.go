@@ -6,4 +6,5 @@ import (
 
 func main() {
 	variables.ShowIntegers()
+	variables.ShowRestOfVariables()
 }
