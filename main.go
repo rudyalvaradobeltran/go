@@ -42,4 +42,7 @@ func main() {
 
 	// iterations
 	iterations.Iterate()
+
+	// exercise 02
+	exercises.Multiplication()
 }
