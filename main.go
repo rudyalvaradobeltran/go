@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	"github.com/rudyalvaradobeltran/go/variables"
 )
 
 func main() {
-	fmt.Println("Hello world!")
+	variables.ShowIntegers()
 }
