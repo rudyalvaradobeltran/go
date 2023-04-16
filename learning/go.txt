@@ -1,1 +1,3 @@
 Functions declared with mayus are exported.
+
+_ avoids having to declare all the variables for the returns values.

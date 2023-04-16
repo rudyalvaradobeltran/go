@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"runtime"
 
+	"github.com/rudyalvaradobeltran/go/exercises"
 	"github.com/rudyalvaradobeltran/go/variables"
 )
 
@@ -24,4 +25,6 @@ func main() {
 	default:
 		fmt.Printf("This is %s \n", os)
 	}
+	fmt.Println(exercises.GreaterThan("99"))
+	fmt.Println(exercises.GreaterThan("101"))
 }
