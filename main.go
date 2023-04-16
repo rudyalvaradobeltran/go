@@ -6,6 +6,7 @@ import (
 
 	"github.com/rudyalvaradobeltran/go/exercises"
 	"github.com/rudyalvaradobeltran/go/input"
+	"github.com/rudyalvaradobeltran/go/iterations"
 	"github.com/rudyalvaradobeltran/go/variables"
 )
 
@@ -38,4 +39,7 @@ func main() {
 
 	// stdin example
 	input.EnterNumbers()
+
+	// iterations
+	iterations.Iterate()
 }
