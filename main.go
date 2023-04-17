@@ -7,8 +7,9 @@ import (
 	   	"github.com/rudyalvaradobeltran/go/exercises"
 	   	"github.com/rudyalvaradobeltran/go/input"
 	   	"github.com/rudyalvaradobeltran/go/iterations"
-	   	"github.com/rudyalvaradobeltran/go/variables" */
-	"github.com/rudyalvaradobeltran/go/files"
+	   	"github.com/rudyalvaradobeltran/go/variables"
+	"github.com/rudyalvaradobeltran/go/files" */
+	"github.com/rudyalvaradobeltran/go/functions"
 )
 
 func main() {
@@ -57,8 +58,14 @@ func main() {
 	files.AddMultiplicationToFile()
 
 	// read file but ioutil.ReadFile is deprecated
-	files.ReadFileButDeprecated()  */
+	files.ReadFileButDeprecated()
 
 	// read file
 	files.ReadFile()
+
+	// anonymous function
+	functions.Operation() */
+
+	// closures
+	functions.CallClosure()
 }
