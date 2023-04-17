@@ -1,17 +1,18 @@
 package main
 
 import (
-	"fmt"
-	"runtime"
+	/* 	"fmt"
+	   	"runtime"
 
-	"github.com/rudyalvaradobeltran/go/exercises"
-	"github.com/rudyalvaradobeltran/go/input"
-	"github.com/rudyalvaradobeltran/go/iterations"
-	"github.com/rudyalvaradobeltran/go/variables"
+	   	"github.com/rudyalvaradobeltran/go/exercises"
+	   	"github.com/rudyalvaradobeltran/go/input"
+	   	"github.com/rudyalvaradobeltran/go/iterations"
+	   	"github.com/rudyalvaradobeltran/go/variables" */
+	"github.com/rudyalvaradobeltran/go/files"
 )
 
 func main() {
-	// integers
+	/* // integers
 	variables.ShowIntegers()
 
 	// rest of variables and convert to text
@@ -45,4 +46,19 @@ func main() {
 
 	// exercise 02
 	exercises.Multiplication()
+
+	// multiplication concat
+	fmt.Println(input.MultiplicationConcat())
+
+	// save file
+	files.SaveMultiplicationToFile()
+
+	// append to file
+	files.AddMultiplicationToFile()
+
+	// read file but ioutil.ReadFile is deprecated
+	files.ReadFileButDeprecated()  */
+
+	// read file
+	files.ReadFile()
 }

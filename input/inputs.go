@@ -37,3 +37,21 @@ func EnterNumbers() {
 	}
 	fmt.Println(text, number1*number2)
 }
+
+func MultiplicationConcat() string {
+	var text string
+	scanner := bufio.NewScanner(os.Stdin)
+	fmt.Println("Enter a number")
+	if scanner.Scan() {
+		number, error := strconv.Atoi(scanner.Text())
+		if error != nil {
+			fmt.Println("Invalid number")
+			MultiplicationConcat()
+			return text
+		}
+		for i := 1; i <= 10; i++ {
+			text += fmt.Sprintf("%d x %d: %d \n", i, number, i*number)
+		}
+	}
+	return text
+}
